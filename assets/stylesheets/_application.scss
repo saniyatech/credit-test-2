@@ -1,0 +1,11 @@
+// http://thesassway.com/beginner/how-to-structure-a-sass-project
+
+// Modules and Variables
+
+// Partials
+@import "partials/all";
+
+// Third-party
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import "vendor/syntax";
+@import "vendor/animate";
