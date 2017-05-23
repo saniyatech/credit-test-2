@@ -1,1 +1,39 @@
-theme: jekyll-theme-cayman
+# Site settings:
+locale             : "en"
+title              : "Credit Test 2 site"
+description        : "A site about Credit Test"
+show_downloads     : false
+# theme: jekyll-theme-cayman
+
+url                : "https://saniyatech.github.io"
+baseurl            : "/credit-test-2"
+
+# Build settings
+#markdown: kramdown
+#highlighter: pygments
+#permalink: /:title/
+
+# sass settings
+sass:
+  sass_dir: assets/stylesheets
+  style: compressed
+
+# html minify
+#compress_html:
+#  clippings: all
+#  comments: all
+#  endings: []
+#  profile: false
+
+# Links to include in the menu navigation
+# For external links, add external: true
+#links:
+#  - title: Home
+#    url: /
+#  - title: Series
+#    url: /series
+#  - title: About
+#    url: /about
+
+# exclude my node related stuff
+#exclude: ['package.json', 'src', 'node_modules']
