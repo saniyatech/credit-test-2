@@ -1,0 +1,38 @@
+// Use Compass
+//@import "compass";
+
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
+// Font weights
+$light: 300 !default;
+$normal: 400 !default;
+$bold: 700 !default;
+
+// Sans-serif Font
+$sans-serif-font-family: 'Open Sans', sans-serif;
+$sans-serif-font-weight: $normal;
+$sans-serif-font-size:   13px;
+$sans-serif-line-height: 1.4;
+
+// Serif Font
+$serif-font-family: 'Volkhov', serif;
+$serif-font-weight: $normal;
+$serif-font-size:   13px;
+$serif-line-height: 1.4;
+
+// Base Font
+$base-font-family: $sans-serif-font-family !default;
+$base-font-weight: $sans-serif-font-weight !default;
+$base-font-size:   $sans-serif-font-size !default;
+$base-line-height: $sans-serif-line-height !default;
+
+// Fixed-width Font
+$fixed-font-family: monospace;
+$fixed-font-size:   85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold !default;
